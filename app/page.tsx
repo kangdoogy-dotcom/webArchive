@@ -7,7 +7,7 @@ import { Wrench, Code, Cpu, Hammer, Award, BookOpen, ChevronRight, PenTool, Mail
 // --- 데이터 영역 (최신 PDF 자료 반영) ---
 
 const profile = {
-  name: "강동혁",
+  name: "강민혁",
   title: "도전·배움·실행의 선순환을 만드는 엔지니어",
   summary: "취약 계층 도배 장판 교체 사업(2200만원 규모) 주도 및 4개 NGO와 협력하며 경영 마인드를 길렀습니다. 429시간의 봉사활동과 2개의 특허출원 프로젝트를 통해 기술력과 사회적 역량을 겸비한 '실행하는 엔지니어'입니다. [cite: 693, 694, 728]",
   email: "kdoogy1@naver.com",
@@ -355,7 +355,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-10 text-center mt-10">
-        <p className="mb-2">© 2025 Kang Dong-hyuk. All rights reserved.</p>
+        <p className="mb-2">© 2025 Kang Min-hyuk. All rights reserved.</p>
         <p className="text-sm">E-mail: {profile.email} | Tel: {profile.phone}</p>
       </footer>
     </div>
