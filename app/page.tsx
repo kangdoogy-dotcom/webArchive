@@ -147,9 +147,7 @@ export default function Portfolio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded mb-4 inline-block tracking-wider">
-              하이테크 서비스 엔지니어 지원자
-            </span>
+
             <h1 className="text-5xl md:text-7xl font-extrabold mb-4">{profile.name}</h1>
             <p className="text-xl md:text-3xl text-slate-300 mb-8 font-light italic">
               {profile.title}
